@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(242, 156, 51);
+}
+
+form{
+    background-color: aliceblue;
+    width: 400px;
+    height: 350px;
+    margin:160px auto;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px dimgray;
+}
+
+input{
+    margin: 10px;
+    background-color:lightgrey;
+    border: 0;
+    padding: 10px;
+    width: 80%;
+    height: 50px;
+    outline: 0;
+}
+
+input[type=submit]{
+    background-color: rgb(237, 143, 28);
+    font-size: 15px;
+}
+
+p{
+    background-color: aliceblue;
+    margin-top: 25px;
+    color: darkgray;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+p span{
+    background-color: aliceblue;
+    color: rgb(237, 143, 28);
+}
